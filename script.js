@@ -36,7 +36,7 @@ const getTrending = () => {
 const getTopRated = () => {
     let url = 'https://api.themoviedb.org/3/movie/top_rated?api_key=19f84e11932abbc79e6d83f82d6d1045&language=en-US&page=1'
 
-    fetchMovies(url, '#top_rated', 'poster_path')
+    fetchMovies(url, '#top_rated', 'backdrop_path')
 }
 
 window.onload = () => {
